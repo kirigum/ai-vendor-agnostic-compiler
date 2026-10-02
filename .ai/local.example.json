@@ -1,0 +1,4 @@
+{
+  "$comment": "Copy to .ai/local.json (git-ignored) and keep only the tools you use: claude, codex, copilot, cursor.",
+  "tools": ["copilot"]
+}

@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.DS_Store
+
+/.ai/local.json
+# Depth-independent: a domain's `codexPaths` can plant AGENTS.md at any depth, and an
+# unignored one would otherwise become committable. The vendored skills' own AGENTS.md
+# files are committed source, so they are negated back in below.
+AGENTS.md
+!/.ai/skills/vendor/**/AGENTS.md
+/CLAUDE.md
+/.github/copilot-instructions.md
+/.github/instructions/
+/.github/agents/
+/.github/prompts/
+/.github/skills/
+/.claude/rules/
+/.claude/agents/
+/.claude/commands/
+/.claude/skills/
+/.cursor/rules/
+/.cursor/agents/
+/.cursor/skills/
+/.codex/agents/
+/.agents/skills/
